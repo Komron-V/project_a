@@ -1,0 +1,146 @@
+.one{
+    background: #101C26;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.left-links {
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
+
+.left-links .active{
+    border-bottom: 1px solid white;
+
+}
+
+.left-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+
+.logo {
+    text-align: center;
+    margin-left: 80px;
+}
+
+
+.right-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.right-buttons button {
+    margin-left: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.right-buttons .two{
+    background: #F0E714;
+    width: 138px;
+    height: 45px;
+    padding: 9px 39px 13px 42px;
+    border-radius: 1000px;
+    gap: 10px;
+    color: #101C26;
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.right-buttons .one{
+    width: 117px;
+    height: 45px;
+    padding: 12px 32px 13px 32px;
+    border-radius: 100px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #CECECE
+
+}
+
+
+
+
+
+.first-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.left-first-section {
+    flex: 1;
+    color: white;
+}
+
+.left-first-section p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.left-first-section button.one {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.left-first-section img {
+    max-width: 100%;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-links img {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+
+.right-first-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.centered-image-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.centered-image-list img {
+    max-width: 40px;
+    margin: 0 10px;
+}
+
+.words-under-numbers {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
