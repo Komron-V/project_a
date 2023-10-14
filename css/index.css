@@ -1,6 +1,21 @@
-.one{
+.one {
     background: #101C26;
+    position: relative; /* Set the container to a relative position */
+    color: #fff; /* Text color for better readability on the dark background */
 }
+
+.one .image {
+    position: absolute; /* Set the image to an absolute position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 151%;
+}
+
+.right-first-section,.first-section-container,.navbar{
+    z-index: 2;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,6 +33,31 @@
 .left-links .active{
     border-bottom: 1px solid white;
 
+}
+
+.first-text{
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 534px;
+    height: 132px;
+    margin-left: 80px;
+}
+
+.second-text{
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    width: 427px;
+    height: 64px;
+    margin-left: 80px;
+    margin-top: -40px;
 }
 
 .left-links a {
@@ -77,6 +117,25 @@
 
 
 
+.one_button{
+    background: #F0E714;
+    border: none;
+    width: 197px;
+    height:60px;
+    padding: 18px 36px 18px 36px;
+    border-radius: 100px;
+    gap: 10px;
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 80px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+
 
 .first-section-container {
     display: flex;
@@ -91,10 +150,7 @@
     color: white;
 }
 
-.left-first-section p {
-    margin: 0;
-    font-size: 16px;
-}
+
 
 .left-first-section button.one {
     color: white;
@@ -125,6 +181,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    margin-right: -20px;
 }
 
 
@@ -143,4 +200,292 @@
     text-align: center;
     margin-top: 10px;
     color: white;
+}
+
+
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Left part for the image */
+.two-first-section {
+    flex: 1;
+}
+
+.two-first-section img {
+    max-width: 100%;
+    margin: 120px 80px;
+}
+
+/* Right part for the text */
+.two-second-section {
+    flex: 1;
+    color: white;
+}
+
+.two-second-section p {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.two-second-section button.one {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.first-thing{
+    background: #F0E714;
+    border-radius: 20px;
+    padding: 5px 19px;
+    width: 8%;
+}
+
+.second-thing, .third-thing{
+    color: #101C26;
+}
+
+.section-two-button{
+    color: #F0E714;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Set the direction to column to stack elements vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.section {
+    display: flex; /* Use flex to arrange text and image side by side */
+    align-items: center; /* Center items vertically within each section */
+    margin-bottom: 20px; /* Add some spacing between sections */
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto; /* Push the image to the right side of the section */
+}
+
+
+
+
+
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Change to flex-start */
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.centered-content {
+    text-align: center;
+    width: 100%; /* Ensure the content spans the full width */
+}
+
+.card {
+    width: 20%;  /* Adjust the width and gap as needed */
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 13px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+}
+
+
+#cookieSvg {
+    width: 50px;
+}
+
+#cookieSvg g path {
+    fill: rgb(97, 81, 81);
+}
+
+.cookieHeading {
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(26, 26, 26);
+}
+
+.cookieDescription {
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-card {
+    width: 30%; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.testimonial-card {
+    width: calc(33.33% - 20px); /* Adjust the width and gap as needed */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.active-circle {
+    background-color: #101C26;
+}
+
+
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form form {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #fff; /* Replace with your logo image */
+    margin-right: 10px;
+}
+
+.footer-description {
+    font-size: 14px;
+}
+
+.right-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-block {
+    margin-right: 20px;
 }
